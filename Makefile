@@ -18,7 +18,7 @@ endif
 
 $(TWEAK_NAME)_FRAMEWORKS = AudioToolbox UIKit Foundation Security QuartzCore CoreGraphics CoreText AVFoundation Accelerate GLKit SystemConfiguration GameController
 
-$(TWEAK_NAME)_FILES = lostwq.mm JRMemory.framework/JRMemory.mm $(wildcard IMGUI/*.cpp) $(wildcard IMGUI/*.mm) $(wildcard hook/*.c)
+$(TWEAK_NAME)_FILES = lostwq.mm JRMemory. framework/JRMemory.mm $(wildcard IMGUI/*.cpp) $(wildcard IMGUI/*.mm) $(wildcard hook/*.c)
 
 include $(THEOS)/makefiles/common.mk
 include $(THEOS)/makefiles/tweak.mk
