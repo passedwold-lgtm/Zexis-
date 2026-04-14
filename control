@@ -1,0 +1,8 @@
+Package: com.lostx.wq.jitmenu
+Name: JIT IMGUI MOD MENU
+Depends: mobilesubstrate
+Version: 9.111.X
+Architecture: iphoneos-arm
+Description: IMGUI MOD MENU
+Maintainer: lostx.wq
+Author: lostx.wq
