@@ -24,7 +24,7 @@
 #include <cerrno>
 #include <cctype>
 // Imgui library
-#import "JRMemory.framework/Headers/MemScan.h"
+//#import "JRMemory.framework/Headers/MemScan.h"
 #import "Esp/CaptainHook.h"
 #import "Esp/ImGuiDrawView.h"
 #import "IMGUI/imgui.h"
