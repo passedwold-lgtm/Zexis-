@@ -1,4 +1,3 @@
-
 ARCHS = arm64
 DEBUG = 0
 FINALPACKAGE = 1
@@ -19,9 +18,8 @@ endif
 
 $(TWEAK_NAME)_FRAMEWORKS = AudioToolbox UIKit Foundation Security QuartzCore CoreGraphics CoreText AVFoundation Accelerate GLKit SystemConfiguration GameController
 
-# ใช้ TAB ข้างหน้าแต่ละบรรทัด (ไม่ใช่ space)
 $(TWEAK_NAME)_FILES = lostwq.mm \
-	$(wildcard JRMemory.framework/*.mm) 
+	JRMemory.framework/JRMemory.mm \
 	$(wildcard IMGUI/*.cpp) $(wildcard IMGUI/*.mm) \
 	$(wildcard hook/*.c)
 
