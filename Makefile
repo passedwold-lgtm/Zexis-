@@ -23,7 +23,7 @@ $(TWEAK_NAME)_CFLAGS += -I./JRMemory.framework/Headers
 $(TWEAK_NAME)_LDFLAGS += -F./ -framework JRMemory
 
 $(TWEAK_NAME)_FILES = lostwq.mm \
-    JRMemory.framework/JRMemory.mm \
+    JRMemory.framework/JRMemory.mm 
     $(wildcard IMGUI/*.cpp) $(wildcard IMGUI/*.mm) \
     $(wildcard hook/*.c)
 
